@@ -61,7 +61,7 @@ public class Tile extends Rectangle {
         setQueen(null);
         setArrow(null);
     }
-    //Mouse event action
+
     private void setOnMousePressed(MouseEvent e) {
 
         if(this.getBoard().getActiveTile() == null) {
